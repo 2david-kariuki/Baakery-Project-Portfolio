@@ -65,7 +65,7 @@ a {
   transition: 0.5s linear;
 }
 
-.nav-right .btn:hover {
+.nav-right .btn:hover .submit:hover {
   background-color: transparent;
   color: #5e1f12;
 
@@ -213,4 +213,55 @@ a {
   overflow: hidden;
   border-radius: 8px;
   min-height: 300px;
+}
+
+.contact-section {
+  background: #5e1f12;
+  color: #fff;
+  padding: 100px 0;
+}
+.contact-section .section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.contact-section .section-title {
+  color: #fff;
+}
+.contact-section .contact-form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-section .contact-form input,
+.contact-section .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.contact-section .contact-form input[type="submit"] {
+
+
+  background: #fff;
+  color: #5e1f12;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+  
+.footer{
+  background: #5e1f12;
+  color: #fff;
+  padding: 50px 0;
+}
+.footer .section-content .footer-links ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
 }
